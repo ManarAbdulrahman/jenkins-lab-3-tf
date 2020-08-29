@@ -21,6 +21,7 @@ pipeline {
 	      sh 'make plan'
           }
       }
+	  //testing comments
       stage("release") {
           steps {
               sh 'make apply'
