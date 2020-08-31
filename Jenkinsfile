@@ -20,8 +20,8 @@ pipeline {
               sh 'make init'
 	      sh 'make plan'
           }
-      }
-	  //testing comments
+      }// testing push buils
+	  
       stage("release") {
           steps {
               sh 'make apply'
